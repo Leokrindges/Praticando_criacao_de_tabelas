@@ -1,0 +1,2 @@
+Este repositorio tem como objetivo praticar semântica, criação de tabelas HTML junto com as demais tags vistas no curso de Desenvolvimento Web Full Stack da Growdev.
+Foi utilizado também um pouco de css. 
