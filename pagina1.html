@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="li"><a href="./pagina1.html">Página 1</a></li>
+                <li class="li"><a href="./pagina2.html">Página 2</a></li>
+                <li class="li"><a href="./pagina3.html">Página 3</a></li>
+            </ul>
+        </nav>
+        <h1>EXEMPLO DE TABELAS COM ALINHAMENTO, ROWSPAN E COLSPAN.</h1>
+    </header>
+    <main>
+        <p>
+            O objetivo é praticar o uso de alinhamentos, colspan e rowspan.
+        </p>
+        <ul>
+            <li>
+                <p>Com o <i>colspan</i> podemos fazer a junção de celulas de colunas diferentes criando assim uma unica
+                    celula no sentido horizontal.</p>
+            </li>
+            <li>
+                <p>Com o <i>rowspan</i> podemos fazer a junção de celulas de linhas diferentes mas da mesma coluna
+                    criando
+                    assim uma unica celula no sentido vertial.</p>
+            </li>
+            <li>
+                <p>Para deixar uma linha branca e outra verde utilizei a propriedade <b>nth-child(even)</b> onde o valor
+                    <i>even</i> deixa todas as linhas pares com cor diferente, caso quisermos deixar as linhas impares
+                    de
+                    outra cor usamos o valor <i>odd</i>.
+                </p>
+            </li>
+        </ul>
+        <table>
+            <caption>Tabela com alinhamentos</caption>
+            <tr class="tr">
+                <td>1</td>
+                <td>2</td>
+                <td>3</th>
+            </tr>
+            <tr class="tr" style="text-align: center;">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr class="tr" style="text-align: end;">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table>
+            <caption>Tabela com uso do colspan</caption>
+            <tr class="tr">
+                <td>1</td>
+                <td>2</td>
+                <td>3</th>
+            </tr>
+            <tr class="tr" style="text-align: center;">
+                <td colspan="3">4</td>
+            </tr>
+            <tr class="tr">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table>
+            <caption>Tabela com uso do colspan e rowspan</caption>
+            <tr class="tr">
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="3" style="text-align: center;">3</th>
+            </tr>
+            <tr class="tr" style="text-align: center;">
+                <td colspan="2">4</td>
+            </tr>
+            <tr class="tr">
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <span>Atividade pratica da <a href="https://www.growdev.com.br/" target="_blank"
+                rel="noopener noreferrer">Growdev</a> para praticar tabelas</span>
+    </footer>
+
+</body>
+
+</html>

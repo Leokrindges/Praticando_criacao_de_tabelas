@@ -1,0 +1,61 @@
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.table_pagina2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(50, 50, 114);
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(216, 221, 241);
+}
+
+.li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+header {
+    width: 100%;
+}
+
+caption {
+    margin: 10px;
+}
